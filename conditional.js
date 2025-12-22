@@ -208,3 +208,45 @@ while (Condition){
 //     i++;//2
 // }while(i<=limit);//2<=5 3<=5
 
+// For Loop:
+/*
+for(initialize variable; condition;statement){
+   // code to be Executed
+}
+*/
+
+for(i=1;i<=10;i++)
+{
+    console.log(i);   
+}
+
+let arr=[];
+for(i=0;i<100;i+=3)
+{
+    arr.push(i);
+}
+console.log(arr);
+console.log(arr[33]);
+
+// //Nested For Loop:
+let nums=[];
+for(let i=0;i<3;i++) //i=0 0<3 1<3
+{
+    nums.push([]); //nums[0] nums[1]
+    for(let j=0;j<3;j++)
+    {
+        nums[i].push(j)// num[1]={0,1,2}
+    }
+}
+console.log(nums);
+console.table(nums);
+
+
+let a = [];
+a.push([]);     // row
+a[0].push(10);  // column
+console.log(a);
+
+
+
+

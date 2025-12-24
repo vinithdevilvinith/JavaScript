@@ -189,6 +189,15 @@ while (Condition){
 }
 */
 
+let i=15;
+while (i>=1){
+    if(i%2!==0){
+        console.log('odd number '+i);
+        
+    }
+    i--;
+}
+
 // let i=1;  //1  initialize
 // while(i<=10){   //1>=10 2<=10 11<=10 false  condition Check
 //     console.log(i);// 1 2 3
@@ -214,6 +223,13 @@ for(initialize variable; condition;statement){
    // code to be Executed
 }
 */
+
+for(let i = 10;i >= 1; i--){
+        if(i%2!==0){
+        console.log("Odd Number "+i);
+        }
+}
+     
 
 // for(i=1;i<=10;i++)
 // {
@@ -261,6 +277,13 @@ for(initialize variable; condition;statement){
 // for(let v of names){
 //     console.log(v);
 // }
+let colors =['red', 'blue', 'green'];
+
+    for(let color of colors){
+        console.log('colors : '+ color);
+        
+    }
+
 
 // // For in Loop:
 // let user = {
@@ -275,6 +298,25 @@ for(initialize variable; condition;statement){
 //     console.log(prop+" : "+user[prop]);
     
 // }
+
+// const person = {
+//     name: 'vinith',
+//     age: 22,
+//     sex: 'Male'
+// };
+
+// for(let key in person){
+//     console.log(key+":"+person[key]);
+    
+// }
+
+// let colors =['red', 'blue', 'green'];
+
+// // for(let key in colors){
+// //     console.log(colors[key]);
+    
+// }
+
 
 //Looping over objects by converting to an array
 

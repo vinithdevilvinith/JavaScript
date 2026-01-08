@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: palegreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <form action="#" autocomplete="off">
+        <h1>Form Events in JavaScripts</h1>
+        <div class="form-group">
+            <label for="username">User Name</label>
+            <input type="text" id="username">
+        </div>
+         <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <div class="form-group">
+            <label for="course">Course Name</label>
+            <select name="" id="course">
+                <option value="">Select Course</option>
+                <option value="">C</option>
+                <option value="">C++</option>
+                <option value="">Java</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend>Gender</legend>
+                <label for=""><input type="radio" name="gender" value="male" >Male</label>
+                <label for=""><input type="radio" name="gender" value="male" >FeMale</label>
+            </fieldset>
+        </div>
+        <input type="checkbox" id="agree">
+        <label for="agree"> i Agree All Condition </label>
+        <div class="form-group">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
+
+<!--form Events in JavaScript:
+submit
+reset
+checked
+blur
+focus
+change
